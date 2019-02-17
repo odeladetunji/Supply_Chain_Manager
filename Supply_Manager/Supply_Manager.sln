@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supply_Manager", "Supply_Manager\Supply_Manager.csproj", "{AE8BF505-1480-4A54-80B4-A82EDADEB7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supply_Manager.Tests", "Supply_Manager.Tests\Supply_Manager.Tests.csproj", "{B6FB4497-B210-45CF-B2CF-80D01E360146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE8BF505-1480-4A54-80B4-A82EDADEB7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8BF505-1480-4A54-80B4-A82EDADEB7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8BF505-1480-4A54-80B4-A82EDADEB7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8BF505-1480-4A54-80B4-A82EDADEB7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FB4497-B210-45CF-B2CF-80D01E360146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FB4497-B210-45CF-B2CF-80D01E360146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FB4497-B210-45CF-B2CF-80D01E360146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FB4497-B210-45CF-B2CF-80D01E360146}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
