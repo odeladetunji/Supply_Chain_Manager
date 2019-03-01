@@ -72,11 +72,18 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
+    <Folder Include="JsonResources\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -85,6 +92,15 @@
     </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
+    <Compile Include="Models\Register.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\AddProductController.cs" />
+    <Compile Include="Controllers\SubscriptionController.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Controllers\IdentityGenerator.cs" />
+    <Compile Include="Controllers\DatabaseConnectionSchema.cs" />
+    <Compile Include="Controllers\GenerateRandomNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -95,6 +111,9 @@
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JsonResources\identityfile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

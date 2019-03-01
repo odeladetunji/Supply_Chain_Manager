@@ -26,3 +26,7 @@
 /Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/obj/Debug/Supply_Manager.csproj.CopyComplete
 /Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/obj/Debug/Supply_Manager.dll
 /Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/obj/Debug/Supply_Manager.pdb
+/Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/bin/EntityFramework.dll
+/Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/bin/EntityFramework.SqlServer.dll
+/Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/bin/EntityFramework.xml
+/Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/bin/EntityFramework.SqlServer.xml

@@ -16,7 +16,7 @@ namespace Supply_Manager.Controllers
 
             ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
             ViewData["Runtime"] = isMono ? "Mono" : ".NET";
-
+            Console.WriteLine("home controller ran");
             return View();
         }
     }
