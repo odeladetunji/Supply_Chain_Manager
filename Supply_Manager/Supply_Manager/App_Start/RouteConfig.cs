@@ -16,19 +16,19 @@ namespace Supply_Manager
             );
 
             routes.MapRoute(
-               name: "Default",
+               name: "logingin",
                url: "{controller}/{action}",
                defaults: new { controller = "Login", action = "Index"}
             );
 
             routes.MapRoute(
-               name: "Default",
+               name: "registerUsers",
                url: "{controller}/{action}",
                defaults: new { controller = "Registration", action = "Index"}
              );
 
             routes.MapRoute(
-               name: "Default",
+               name: "addingProducts",
                url: "{controller}/{action}",
                defaults: new { controller = "AddProduct", action = "Index"}
             );

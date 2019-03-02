@@ -24,6 +24,11 @@ namespace Supply_Manager.Controllers
             identity = randomNumber.Next(10000000, 100000000);
         }
 
+        public int GetTheIdentity()
+        {
+            return identity;
+        }
+
         // reading the file
         private void ReadingFile()
         {

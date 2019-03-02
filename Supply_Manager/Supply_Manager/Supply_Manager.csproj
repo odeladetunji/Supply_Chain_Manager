@@ -84,6 +84,7 @@
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="JsonResources\" />
+    <Folder Include="Content\Images\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -101,6 +102,8 @@
     <Compile Include="Controllers\IdentityGenerator.cs" />
     <Compile Include="Controllers\DatabaseConnectionSchema.cs" />
     <Compile Include="Controllers\GenerateRandomNumbers.cs" />
+    <Compile Include="Controllers\IActionResult.cs" />
+    <Compile Include="Controllers\IFormFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />

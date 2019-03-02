@@ -1,18 +1,27 @@
 ﻿<Properties StartupConfiguration="{AE8BF505-1480-4A54-80B4-A82EDADEB7FD}|">
   <MonoDevelop.Ide.ItemProperties.Supply__Manager PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Supply__Manager.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Supply_Manager/Controllers/AddProductController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Supply_Manager/packages.config">
     <Files>
-      <File FileName="Supply_Manager/App_Start/RouteConfig.cs" Line="29" Column="1" />
-      <File FileName="Supply_Manager/Controllers/AddProductController.cs" Line="12" Column="13" />
+      <File FileName="Supply_Manager/App_Start/RouteConfig.cs" Line="19" Column="21" />
+      <File FileName="Supply_Manager/Controllers/AddProductController.cs" Line="31" Column="1" />
       <File FileName="Supply_Manager/Controllers/GenerateRandomNumbers.cs" Line="45" Column="10" />
       <File FileName="Supply_Manager/Controllers/HomeController.cs" Line="24" Column="1" />
-      <File FileName="Supply_Manager/Controllers/IdentityGenerator.cs" Line="16" Column="21" />
+      <File FileName="Supply_Manager/Controllers/IdentityGenerator.cs" Line="18" Column="23" />
       <File FileName="Supply_Manager/Controllers/RegistrationController.cs" Line="13" Column="11" />
       <File FileName="Supply_Manager/Controllers/SubscriptionController.cs" Line="23" Column="24" />
       <File FileName="Supply_Manager/JsonResources/identityfile.txt" Line="1" Column="23" />
       <File FileName="Supply_Manager/Controllers/LoginController.cs" Line="59" Column="18" />
       <File FileName="Supply_Manager/Controllers/DatabaseConnectionSchema.cs" Line="12" Column="1" />
+      <File FileName="Supply_Manager/Controllers/IActionResult.cs" Line="1" Column="1" />
+      <File FileName="Supply_Manager/Controllers/IFormFile.cs" Line="6" Column="2" />
+      <File FileName="Supply_Manager/App_Start/WebApiConfig.cs" Line="8" Column="2" />
+      <File FileName="Supply_Manager/Views/Home/Index.cshtml" Line="2" Column="1" />
+      <File FileName="Supply_Manager/Views/_ViewStart.cshtml" Line="4" Column="1" />
+      <File FileName="Supply_Manager/Views/Web.config" Line="14" Column="13" />
+      <File FileName="Supply_Manager/packages.config" Line="11" Column="39" />
+      <File FileName="Supply_Manager/Web.config" Line="12" Column="22" />
+      <File FileName="Supply_Manager/Global.asax" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
