@@ -10,6 +10,7 @@ namespace Supply_Manager.Controllers
         }
 
         int identity;
+        bool data = false;
         readonly string path = "../JsonResources/identityfile.txt";
         string fileContent;
         int count;
@@ -37,7 +38,7 @@ namespace Supply_Manager.Controllers
                 using (StreamReader sr = new StreamReader(path))
                 {
                     fileContent = sr.ReadToEnd();
-                    Console.WriteLine(sr.ReadToEnd());
+                    Console.WriteLine(fileContent);
                 }
             }
             catch (Exception e)
@@ -69,19 +70,22 @@ namespace Supply_Manager.Controllers
             if(count < 1) container = fileContent.Split('@');
             count++;
             GenerateIdentity();
+
             foreach (string param in container)
             {
                 counter++;
                 if (param == (string)identity.ToString())
                 {
                     counter = 0;
-                    GenerateIdentity();
-                    GetIdentity();
+                    data = false;
+                    //GenerateIdentity();
+                    //GetIdentity();
                     break;
                 }
 
                 if (counter == container.Length)
                 {
+                    data = true;
                     WritingToTheFile();
                     counter = 0;
                 }

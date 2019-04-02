@@ -10,28 +10,30 @@ namespace Supply_Manager
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}",
-                defaults: new { controller = "Home", action = "Index" }
+              "Default",
+              "{controller}/{action}",
+              new { controller = "Home", action = "Index" }
             );
 
             routes.MapRoute(
-               name: "logingin",
-               url: "{controller}/{action}",
-               defaults: new { controller = "Login", action = "Index"}
+             "CompanyRegistration",
+             "{controller}/{action}",
+              defaults: new { controller = "Company", action = "RegisterCompany"}
             );
+              
+            //routes.MapRoute(
+            //  name: "logingin",
+            //  url: "{controller}/{action}",
+            //  defaults: new { controller = "Login", action = "Index" }
+            //);
 
-            routes.MapRoute(
-               name: "registerUsers",
-               url: "{controller}/{action}",
-               defaults: new { controller = "Registration", action = "Index"}
-             );
 
-            routes.MapRoute(
-               name: "addingProducts",
-               url: "{controller}/{action}",
-               defaults: new { controller = "AddProduct", action = "Index"}
-            );
+            //routes.MapRoute(
+            //   name: "addingProducts",
+            //   url: "{controller}/{action}",
+            //   defaults: new { controller = "AddProduct", action = "Index" }
+            //);
+         
         }
     }
 }

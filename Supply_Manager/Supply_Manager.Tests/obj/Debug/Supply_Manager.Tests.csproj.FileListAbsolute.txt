@@ -1,0 +1,2 @@
+/Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager.Tests/obj/Debug/Supply_Manager.Tests.csprojAssemblyReference.cache
+/Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager.Tests/obj/Debug/Supply_Manager.Tests.csproj.CoreCompileInputs.cache
