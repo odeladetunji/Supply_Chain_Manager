@@ -10,7 +10,8 @@ namespace Supply_Manager
             //CORS
             config.EnableCors();
             // Web API routes
-            config.MapHttpAttributeRoutes();
+            //config.MapHttpAttributeRoutes();
         }
     }
 }
+

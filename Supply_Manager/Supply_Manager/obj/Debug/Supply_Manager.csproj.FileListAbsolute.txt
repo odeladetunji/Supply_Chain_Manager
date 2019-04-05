@@ -35,3 +35,4 @@
 /Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/obj/Debug/Supply_Manager.csproj.CopyComplete
 /Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/obj/Debug/Supply_Manager.dll
 /Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/obj/Debug/Supply_Manager.pdb
+/Users/mac/Projects/Supply_Chain_Manager/Supply_Manager/Supply_Manager/obj/Debug/Supply_Manager.csprojAssemblyReference.cache

@@ -1,28 +1,45 @@
 ﻿<Properties StartupConfiguration="{AE8BF505-1480-4A54-80B4-A82EDADEB7FD}|">
   <MonoDevelop.Ide.ItemProperties.Supply__Manager PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Supply__Manager.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Supply_Manager/packages.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Supply_Manager/App_Start/WebApiConfig.cs">
     <Files>
-      <File FileName="Supply_Manager/App_Start/RouteConfig.cs" Line="19" Column="21" />
-      <File FileName="Supply_Manager/Controllers/AddProductController.cs" Line="31" Column="1" />
-      <File FileName="Supply_Manager/Controllers/GenerateRandomNumbers.cs" Line="45" Column="10" />
-      <File FileName="Supply_Manager/Controllers/HomeController.cs" Line="24" Column="1" />
-      <File FileName="Supply_Manager/Controllers/IdentityGenerator.cs" Line="18" Column="23" />
-      <File FileName="Supply_Manager/Controllers/RegistrationController.cs" Line="13" Column="11" />
-      <File FileName="Supply_Manager/Controllers/SubscriptionController.cs" Line="23" Column="24" />
-      <File FileName="Supply_Manager/JsonResources/identityfile.txt" Line="1" Column="23" />
-      <File FileName="Supply_Manager/Controllers/LoginController.cs" Line="59" Column="18" />
-      <File FileName="Supply_Manager/Controllers/DatabaseConnectionSchema.cs" Line="12" Column="1" />
-      <File FileName="Supply_Manager/Controllers/IActionResult.cs" Line="1" Column="1" />
-      <File FileName="Supply_Manager/Controllers/IFormFile.cs" Line="6" Column="2" />
-      <File FileName="Supply_Manager/App_Start/WebApiConfig.cs" Line="8" Column="2" />
-      <File FileName="Supply_Manager/Views/Home/Index.cshtml" Line="2" Column="1" />
+      <File FileName="Supply_Manager/Controllers/GenerateRandomNumbers.cs" Line="17" Column="2" />
+      <File FileName="Supply_Manager/Controllers/CompanyController.cs" Line="27" Column="37" />
+      <File FileName="Supply_Manager/Controllers/LoginController.cs" Line="46" Column="22" />
+      <File FileName="Supply_Manager/App_Start/RouteConfig.cs" Line="3" Column="1" />
+      <File FileName="Supply_Manager/App_Start/WebApiConfig.cs" Line="14" Column="10" />
+      <File FileName="Supply_Manager/Controllers/HomeController.cs" Line="23" Column="41" />
+      <File FileName="Supply_Manager/Global.asax.cs" Line="18" Column="1" />
+      <File FileName="Supply_Manager/Cors/AllowCrossSiteOrigins.cs" Line="10" Column="120" />
+      <File FileName="Supply_Manager/Web.config" Line="20" Column="50" />
+      <File FileName="Supply_Manager/Views/Web.config" Line="1" Column="1" />
       <File FileName="Supply_Manager/Views/_ViewStart.cshtml" Line="4" Column="1" />
-      <File FileName="Supply_Manager/Views/Web.config" Line="14" Column="13" />
-      <File FileName="Supply_Manager/packages.config" Line="11" Column="39" />
-      <File FileName="Supply_Manager/Web.config" Line="12" Column="22" />
+      <File FileName="Supply_Manager/packages.config" Line="1" Column="1" />
       <File FileName="Supply_Manager/Global.asax" Line="1" Column="1" />
+      <File FileName="Supply_Manager.Tests/Controllers/HomeControllerTest.cs" Line="22" Column="55" />
+      <File FileName="Supply_Manager.Tests/packages.config" Line="1" Column="1" />
+      <File FileName="Supply_Manager/Controllers/DatabaseConnectionSchema.cs" Line="20" Column="35" />
+      <File FileName="Supply_Manager/Controllers/IActionResult.cs" Line="5" Column="1" />
+      <File FileName="Supply_Manager/Controllers/IFormFile.cs" Line="15" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Supply_Manager" expanded="True">
+            <Node name="Supply_Manager" expanded="True">
+              <Node name="App_Start" expanded="True">
+                <Node name="WebApiConfig.cs" selected="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Cors" expanded="True" />
+              <Node name="Global.asax" expanded="True" />
+            </Node>
+            <Node name="Supply_Manager.Tests" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

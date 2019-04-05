@@ -8,6 +8,13 @@ namespace Supply_Manager
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapMvcAttributeRoutes();
+
+            routes.MapRoute(
+             "CompanyRegistration",
+             "Company/{action}",
+             defaults: new { controller = "Company", action = "registercompany" }
+            );
 
             routes.MapRoute(
               "Default",
@@ -15,12 +22,7 @@ namespace Supply_Manager
               new { controller = "Home", action = "Index" }
             );
 
-            routes.MapRoute(
-             "CompanyRegistration",
-             "{controller}/{action}",
-              defaults: new { controller = "Company", action = "RegisterCompany"}
-            );
-              
+
             //routes.MapRoute(
             //  name: "logingin",
             //  url: "{controller}/{action}",
@@ -33,7 +35,7 @@ namespace Supply_Manager
             //   url: "{controller}/{action}",
             //   defaults: new { controller = "AddProduct", action = "Index" }
             //);
-         
+
         }
     }
 }

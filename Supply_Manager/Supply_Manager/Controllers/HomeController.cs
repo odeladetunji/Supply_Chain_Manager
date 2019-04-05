@@ -9,10 +9,10 @@ using Supply_Manager.Cors;
 
 namespace Supply_Manager.Controllers
 {
-
+    [AllowCrossSiteOrigins]
     public class HomeController : Controller
     {
-        [AllowCrossSiteOrigins]
+        //[HttpGet]
         public ActionResult Index()
         {
             var mvcName = typeof(Controller).Assembly.GetName();
